@@ -1,0 +1,85 @@
+/* Copyright 2014-2015 Eucalyptus Systems, Inc. */
+/*-----------------------------------------
+   Colors
+  ----------------------------------------- */
+/*-----------------------------------------
+   Item list
+  ----------------------------------------- */
+/*-----------------------------------------
+   Magic Search bar
+  ----------------------------------------- */
+/* line 30, ../src/magic_search.scss */
+.search-bar {
+  position: relative;
+  border: 1px solid black;
+  background-color: white;
+  margin-bottom: 0.5rem;
+  padding: 4px;
+  height: auto;
+}
+/* line 37, ../src/magic_search.scss */
+.search-bar i.fi-filter {
+  color: #444444;
+  position: absolute;
+  top: 0.5rem;
+  left: 0.65rem;
+}
+/* line 46, ../src/magic_search.scss */
+.search-bar #search-main-area {
+  position: relative;
+  margin-left: 1.65rem;
+  margin-right: 1.65rem;
+  cursor: text;
+}
+/* line 14, ../src/magic_search.scss */
+.search-bar .item-list {
+  margin-bottom: 6px;
+}
+/* line 16, ../src/magic_search.scss */
+.search-bar .item-list .item {
+  color: #333;
+  background-color: #e6e7e8;
+  margin-right: 8px;
+}
+/* line 20, ../src/magic_search.scss */
+.search-bar .item-list .item a {
+  color: white;
+}
+/* line 53, ../src/magic_search.scss */
+.search-bar .item-list {
+  margin-bottom: 2px;
+}
+/* line 56, ../src/magic_search.scss */
+.search-bar #search-selected {
+  background-color: white;
+  color: #444444;
+}
+/* line 60, ../src/magic_search.scss */
+.search-bar #search-entry {
+  display: inline-block;
+  height: 1.5rem;
+}
+/* line 64, ../src/magic_search.scss */
+.search-bar #search-input {
+  width: 220px;
+  border: 0;
+  box-shadow: none;
+  height: 1.5rem;
+  padding: 3px;
+  background-color: white;
+}
+/* line 75, ../src/magic_search.scss */
+.search-bar .match {
+  font-weight: bold;
+}
+/* line 78, ../src/magic_search.scss */
+.search-bar i.cancel {
+  color: #444444;
+  position: absolute;
+  top: 0.5rem;
+  right: 0.65rem;
+}
+/* line 80, ../src/magic_search.scss */
+.search-bar i.cancel:hover {
+  color: darkred;
+}
